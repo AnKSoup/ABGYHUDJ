@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ABGYhuDJ's Music</title>
+	<meta name="description" content="Youtuber master in the arts of crunkcore, schranz, and italo-disco/spacesynth">
+	<link rel="stylesheet" href="./styles/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<script src="./scripts/main.js" defer></script>
+</head>
+
+<body>
+	<header id="header">
+		<div id="carousel">
+			<div id="titles">
+				<h1 id="mainTitle">ABGYhuDJ's Music</h1>
+				<h2 id="subTitle">crunkcore, schranz, and italo-disco/spacesynth</h2>
+			</div>
+			<!-- Mobile section -->
+			<div class="mobileOnly" id="mobileAd">
+				<a class="btn secondaryBtn" href="#shopTickets">Get tickets</a>
+				<img src="images/discover-music-text.svg" alt="Discover a brand new genre of Music">
+			</div>
+			<div id="slides">
+				<img src="images/1-carousel-andre-benz-unsplash.jpg" alt="ABGYhuDJ at Shark Stadium - 2022">
+				<img src="images/2-carousel-karina-carvalho-unsplash.jpg" alt="ABGYhuDJ at Tuna Stadium - 2023">
+			</div>
+		</div>
+		<div id="currentSlideShowerBar">
+			<div id="currentSlideShower"></div>
+		</div>
+	</header>
+
+	<nav id="navBar">
+		<!-- Mobile NavBar -->
+		<div id="mobileNavBar" class="mobileOnly">
+			<a href="#Top">
+				<img class="logo" src="images/abgyhudj-diy-logo.svg" alt="ABGYhuDJ's logo">
+			</a>
+			<div id="dropDownMobile">
+				<button id="dropDownMobileBtn" class="dropDownMobileBTNInactive">&#9636;</button>
+				<div id="dropDownMobileContent" class="dropDownMobileInactive">
+					<a href="#shopTickets" class="mobilePrimaryLink">Get tickets</a>
+					<a href="#theArtist" class="mobileSecondaryLink">The Artist</a>
+					<a href="#theMusic" class="mobileSecondaryLink">The Music</a>
+					<a href="#theLegend" class="mobileSecondaryLink">The Legend</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Desktop NavBar -->
+		<div id="desktopNavBar" class="desktopOnly">
+			<a href="#Top">
+				<img class="logo" src="images/abgyhudj-diy-logo.svg" alt="ABGYhuDJ's logo">
+			</a>
+			<div id="desktopNavBarContent">
+				<div id="dropDownDesktop">
+					<button id="dropDownDesktopBtn" class="dropDownBTNInactive">About me &#11167;</button>
+					<div id="dropDownDesktopContent" class="dropDownInactive">
+						<a href="#theArtist" class="dropDownDesktopLink">The Artist</a>
+						<a href="#theMusic" class="dropDownDesktopLink">The Music</a>
+						<a href="#theLegend" class="dropDownDesktopLink">The Legend</a>
+					</div>
+				</div>
+				<a class="desktopNavBarLink" href="#shopTickets">Get tickets &#9834;</a>
+				<a class="desktopNavBarLink" href="index.html" aria-current="page">Home &#10224;</a>
+			</div>
+		</div>
+	</nav>
+
+
+	<main id="main">
+		<!-- Tickets' ad -->
+		<div id="desktopAd" class="desktopOnly">
+			<div id="desktopAdText">
+				<img loading="lazy" src="images/discover-music-text.svg" alt="Discover a brand new genre of Music">
+				<div>
+					<p class="primaryText">Beluga Stadium</p>
+					<p class="secondaryText">Dec 6, 2024</p>
+				</div>
+			</div>
+			<a class="btn secondaryBtn" href="#shopTickets">Get tickets</a>
+		</div>
+
+		<article id="theArtist" class="offsetAnchors">
+			<h2>The Artist</h2>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit inventore, quis deleniti labore
+				cupiditate ex repellat sapiente neque unde, commodi natus ad architecto doloribus temporibus,
+				quisquam
+				facilis porro in assumenda?</p>
+		</article>
+		<article id="theMusic" class="offsetAnchors">
+			<img loading="lazy" src="images/example-music-unsplash.jpg" alt="ABGYhuDJ playing drums">
+			<div>
+				<h2>The Music</h2>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit inventore, quis deleniti labore
+					cupiditate ex repellat sapiente neque unde, commodi natus ad architecto doloribus temporibus,
+					quisquam facilis porro in assumenda?</p>
+			</div>
+		</article>
+		<article id="theLegend" class="offsetAnchors">
+			<h2>The Legend</h2>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit inventore, quis deleniti labore
+				cupiditate ex repellat sapiente neque unde, commodi natus ad architecto doloribus temporibus,
+				quisquam
+				facilis porro in assumenda?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+				inventore,
+				quis deleniti labore cupiditate ex repellat sapiente neque unde, commodi natus ad architecto
+				doloribus
+				temporibus, quisquam facilis porro in assumenda?</p>
+		</article>
+
+		<!-- Shop form -->
+		<section id="shopTickets" class="offsetAnchors">
+			<h2>Shop Tickets</h2>
+			<div id="shopTicketsFormContainer">
+				<div id="priceInfo">
+					<p class="formNote">Buy tickets by filling out this form</p>
+					<div>
+						<p id="price">356$</p>
+						<p class="formNote">/adults</p>
+					</div>
+				</div>
+				<div class="desktopOnly stadiumInfo">
+					<div>
+						<p class="primaryText">Beluga Stadium</p>
+						<p class="secondaryText">Dec 6, 2024</p>
+					</div>
+				</div>
+				<form method="post" id="shopTicketsForm" onsubmit="return checkDOB()">
+					<fieldset class="formSpecialFlex">
+						<div>
+
+							<label for="fullName"> Name <span class="requiredField">*</span> </label>
+							<input type="text" id="fullName" required placeholder="Enter full name here">
+						</div>
+						<div>
+
+							<label for="DOB">Date of Birth <span class="requiredField">*</span>
+							</label>
+							<input type="date" name="DOB" id="DOB" required>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend> Billing address <span class="requiredField">*</span> </legend>
+
+						<input class="inputBiggest" type="text" id="streetName" required placeholder="Street name">
+						<input type="text" id="city" required placeholder="City">
+						<input class="inputSmaller" type="text" id="zip" required placeholder="ZIP/ Postal code"
+							pattern="[0-9]{5}">
+						<input type="text" id="stateRegion" required placeholder="State/ Region">
+						<input list="countryList" id="Country" required placeholder="Country">
+
+						<datalist id="countryList">
+							<option value="United States"></option>
+							<option value="United Kingdom"></option>
+							<option value="France"></option>
+							<option value="Germany"></option>
+						</datalist>
+
+					</fieldset>
+					<fieldset>
+						<label for="email"> Email </label>
+						<p class="emailNote">You will receive an email upon completion<span
+								class="requiredField">*</span>
+						</p>
+						<input class="inputBiggest" type="email" name="email" id="email" required
+							placeholder="your@email.com">
+
+					</fieldset>
+					<fieldset>
+						<legend> Credit card information <span class="requiredField">*</span> </legend>
+						<input type="text" id="cardNumber" required placeholder="Card number" pattern="[0-9]{16}">
+						<input type="text" id="cardHolder" required placeholder="Card holder">
+						<label class="specialLabel">
+							Expires on <input type="date" id="cardExpirationDate" required>
+						</label>
+						<input type="text" id="CVV" required placeholder="CVV" pattern="[0-9]{3}">
+					</fieldset>
+					<fieldset class="formSpecialFlex">
+						<label class="sellToGoogle">
+							<input type="checkbox" id="sellInfo" required checked>
+							Sell info to Google <span class="requiredField">*</span>
+						</label>
+						<input class="inputSmaller" type="number" id="ticketAmount" min="1" placeholder="Amount"
+							required>
+					</fieldset>
+				</form>
+			</div>
+			<div id="totalPriceIndicator">
+				<p>Your total</p>
+				<p id="totalPrice"></p>
+			</div>
+		</section>
+		<button id="submitBtn" class="btn primaryBtn" type="submit" form="shopTicketsForm">SHOP</button>
+	</main>
+
+	<footer>
+		<div id="personalAdIcons">
+			<a class="adIcon" href="placeholder.html" target="_blank" rel="noopener noreferrer nofollow">
+				<img id="tikTok" loading="lazy" src="images/logo-tiktok.svg" alt="link to my TikTok account">
+			</a>
+			<a class="adIcon mobileOnly" href="placeholder.html" target="_blank" rel="noopener noreferrer nofollow">
+				<img loading="lazy" src="images/logo-youtube-phone.svg" alt="link to my Youtube channel">
+			</a>
+			<a class="adIcon" href="placeholder.html" target="_blank" rel="noopener noreferrer nofollow">
+				<img loading="lazy" src="images/logo-twitter.svg" alt="link to my Twitter account">
+			</a>
+			<a class="adIcon" href="placeholder.html" target="_blank" rel="noopener noreferrer nofollow">
+				<img loading="lazy" src="images/logo-facebook.svg" alt="link to my Facebook account">
+			</a>
+			<a class="adIcon desktopOnly" href="placeholder.html" target="_blank" rel="noopener noreferrer nofollow">
+				<img loading="lazy" src="images/logo-youtube.svg" alt="link to my Youtube channel">
+			</a>
+		</div>
+		<p id="copy">&copy; 2024 - ABGYhuDJ</p>
+		<div id="usefulLinks">
+			<h3 class="desktopOnly">Useful info :</h3>
+			<a class="footerLinks" href="/placeholder.html" target="_blank" rel="noopener noreferrer nofollow">
+				See next planned tour dates - 2025.
+			</a>
+			<a class="footerLinks" href="/placeholder.html" target="_blank" rel="noopener noreferrer nofollow">
+				See how personal data gets treated.
+			</a>
+			<a class="footerLinks" href="/placeholder.html" target="_blank" rel="noopener noreferrer nofollow">
+				See legal mentions.
+			</a>
+		</div>
+
+	</footer>
+</body>
+
+</html>
